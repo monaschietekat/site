@@ -101,11 +101,11 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
+            "sticky": false,
+            "logo": false,
+            "showBrand": false,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
