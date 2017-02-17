@@ -484,3 +484,7 @@ h6,
   font-size: 60px;
   color: #f7da64;
 }
+#index-gallery3-0 .mbr-gallery-item > div > span {
+  text-align: center;
+  color: #f28281;
+}
