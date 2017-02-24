@@ -23,7 +23,7 @@
         "isRtl": false
       }
     },
-    "uniqCompNum": 12
+    "uniqCompNum": 13
   },
   "pages": {
     "index.html": {
@@ -248,6 +248,26 @@
           "_anchor": "index-gallery3-0",
           "articleLayout": false,
           "allItem": ""
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-c",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "WERK",
+          "meta": "2015-2016"
         },
         {
           "_tags": [
