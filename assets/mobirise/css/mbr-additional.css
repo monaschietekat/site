@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 
 
@@ -480,9 +483,15 @@ h6,
   background-color: #ffffff;
 }
 #header1-1 .mbr-section-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 60px;
   color: #f7da64;
+  text-align: right;
+}
+#header1-1 .mbr-section-title SPAN {
+  font-family: 'Merriweather', serif;
+  font-size: 32px;
+  text-align: left;
 }
 #index-gallery3-0 .mbr-gallery-item > div > span {
   text-align: center;

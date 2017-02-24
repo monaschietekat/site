@@ -129,10 +129,17 @@
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_styles": {
             ".mbr-section-title": {
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
               "font-size": "60px",
-              "color": "#f7da64"
+              "color": "#f7da64",
+              "text-align": "right"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700",
+              "font-size": "32px",
+              "text-align": "left"
             }
           },
           "_anchor": "header1-1",
@@ -150,12 +157,12 @@
             "overlay": false,
             "overlayOpacity": "0.4",
             "overlayColor": "#c1c1c1",
-            "contentAlign": "center",
+            "contentAlign": "left",
             "showTitle": true,
             "showText": false,
             "showButtons": false
           },
-          "title": "Mona Schietekat&nbsp;",
+          "title": "<span style=\"font-weight: normal;\">Mona Schietekat&nbsp;</span>",
           "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
         },
@@ -179,6 +186,12 @@
         {
           "_inherit": "gallery1",
           "_name": "gallery3",
+          "_styles": {
+            ".mbr-gallery-item > div > span": {
+              "text-align": "center",
+              "color": "#f28281"
+            }
+          },
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "1",
@@ -234,13 +247,7 @@
           },
           "_anchor": "index-gallery3-0",
           "articleLayout": false,
-          "allItem": "",
-          "_styles": {
-            ".mbr-gallery-item > div > span": {
-              "text-align": "center",
-              "color": "#f28281"
-            }
-          }
+          "allItem": ""
         },
         {
           "_tags": [
